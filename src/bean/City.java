@@ -3,11 +3,13 @@ package bean;
 public class City {
 	private int cityId;
 	private String cityName;
+	private int cityPId;
 
-	public City(int cityId, String cityName) {
+	public City(int cityId, String cityName,int cityPId) {
 		super();
 		this.cityId = cityId;
 		this.cityName = cityName;
+		this.cityPId = cityPId;
 	}
 
 	public City() {
@@ -29,5 +31,6 @@ public class City {
 	public void setCityName(String cityName) {
 		this.cityName = cityName;
 	}
+	
 
 }

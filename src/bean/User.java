@@ -6,14 +6,15 @@ public class User {
 	private String password;
 	private String realName;
 	private int sex;
+	private int roleId;
 
-	public User(int userId, String userName, String password, String realName, int sex) {
+	public User(int userId, String userName, String password, String realName, int sex,int roleId) {
 		super();
 		this.userId = userId;
 		this.userName = userName;
 		this.password = password;
 		this.realName = realName;
-		this.sex = sex;
+		this.roleId = roleId;
 	}
 
 	public User() {
@@ -59,5 +60,5 @@ public class User {
 	public void setSex(int sex) {
 		this.sex = sex;
 	}
-
+    
 }
